@@ -1,0 +1,42 @@
+.button {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  font-size: 18px;
+  height: 53.9px;
+  justify-content: center;
+  transition: all 200ms;
+  width: 100%;
+}
+
+.button-primary {
+  background-color: var(--mantine-key-primary-bg);
+  border-bottom: 4px solid var(--mantine-key-border-color);
+
+  @mixin hover {
+    background-color: var(--mantine-key-primary-hover-bg);
+  }
+}
+
+.button-secondary {
+  background-color: var(--mantine-key-secondary-bg);
+  border-bottom: 4px solid var(--mantine-key-border-color);
+
+  @mixin hover {
+    background-color: var(--mantine-key-secondary-hover-bg);
+  }
+}
+
+.button-tertiary {
+  background-color: var(--mantine-key-tertiary-bg);
+  border-bottom: 4px solid var(--mantine-key-border-color);
+
+  @mixin hover {
+    background-color: var(--mantine-key-tertiary-hover-bg);
+  }
+}
+
+.pressed {
+  border-bottom-width: 0;
+  transform: translateY(4px);
+}

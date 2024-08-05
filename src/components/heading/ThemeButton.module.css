@@ -1,0 +1,6 @@
+.ai {
+  --ai-color: var(--mantine-ai-color) !important;
+  --ai-hover: var(--mantine-ai-hover) !important;
+  --ai-hover-color: var(--mantine-ai-hover-color);
+  transition: all 200ms;
+}

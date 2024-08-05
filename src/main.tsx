@@ -1,4 +1,4 @@
-import "@fontsource-variable/inter"; // Supports weights 100-900
+import "@fontsource-variable/source-code-pro"; // Supports weights 200-900
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import { App } from "@src/App";

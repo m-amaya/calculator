@@ -1,0 +1,5 @@
+.screen {
+  background-color: var(--mantine-screen-bg);
+  border-radius: 6px;
+  height: 200px;
+}
